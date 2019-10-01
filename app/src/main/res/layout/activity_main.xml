@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblnim"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Nim : A11.2017.10581" />
+
+    <TextView
+        android:id="@+id/lblnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Ahmad rizal" />
+
+    <ImageView
+        android:id="@+id/imgfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/lblhobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi : Menggambar" />
+
+    <TextView
+        android:id="@+id/lbldeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi : Saya mahasiswa universitas dian nuswantoro" />
+
+    <TextView
+        android:id="@+id/lblalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Udinus Semarang" />
+
+    <TextView
+        android:id="@+id/lblemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="111201710581@mhs.dinus.ac.id" />
+
+    <Button
+        android:id="@+id/btnalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:onClick="openLocation"/>
+
+    <Button
+        android:id="@+id/btntelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon"
+        android:onClick="openTelp"/>
+
+    <Button
+        android:id="@+id/btnemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:onClick="openEmail" />
+
+</LinearLayout>
